@@ -1,0 +1,20 @@
+{
+  "Function Component": {
+    "prefix": "fc",
+    "body": [
+      "import type { FC } from 'react';",
+      " ",
+      "interface $1Props {",
+      "\t$2",
+      "}",
+      " ",
+      "const $1: FC<$1Props> = ($3) => {",
+      "\treturn ( $0 );",
+      "}",
+      " ",
+      "export default $1;",
+      " "
+    ],
+    "description": "Function Component"
+  }
+}
