@@ -1,20 +1,63 @@
 {
-  "Function Component": {
-    "prefix": "fc",
+  "Functional Component": {
+    "prefix": "rtfc",
     "body": [
       "import type { FC } from 'react';",
-      " ",
-      "interface $1Props {",
-      "\t$2",
+      "",
+      "interface $1Props {$2}",
+      "",
+      "const $1: FC<$1Props> = ({ $3 }) => {",
+      "\treturn ($0);",
       "}",
-      " ",
-      "const $1: FC<$1Props> = ($3) => {",
-      "\treturn ( $0 );",
-      "}",
-      " ",
+      "",
       "export default $1;",
-      " "
+      ""
     ],
-    "description": "Function Component"
+    "description": "Functional Component"
+  },
+  "useState": {
+    "prefix": "rtus",
+    "body": ["const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState($2);"],
+    "description": "useState Hook"
+  },
+  "useEffect Hook": {
+    "prefix": "rtue",
+    "body": ["useEffect(() => {", "\t$1", "}, [$2]);"],
+    "description": "useEffect Hook"
+  },
+  "Import From": {
+    "prefix": "rtif",
+    "body": ["import $1 from '$2';"],
+    "description": "Import From"
+  },
+  "Import Props From": {
+    "prefix": "rtipf",
+    "body": ["import { $1 } from '$2';"],
+    "description": "Import Props From"
+  },
+  "Export Const": {
+    "prefix": "rtxc",
+    "body": ["export const $1 = $2;"],
+    "description": "Export Const"
+  },
+  "Export Default": {
+    "prefix": "rtxd",
+    "body": ["export default $1;"],
+    "description": "Export Default"
+  },
+  "Export All From": {
+    "prefix": "rtxaf",
+    "body": ["export * from '$1';"],
+    "description": "Export All From"
+  },
+  "Export Default From": {
+    "prefix": "rtxdf",
+    "body": ["export { default } from '$1';"],
+    "description": "Export Default From"
+  },
+  "Export Default As From": {
+    "prefix": "rtxdaf",
+    "body": ["export { default as $1 } from '$2';"],
+    "description": "Export Default As From"
   }
 }
