@@ -43,7 +43,7 @@ import | from '|';
 import { | } from '|';
 ```
 
-## rt<u>ec</u> - Export Const
+## rt<u>xc</u> - Export Const
 
 ```tsx
 export const | = |;
