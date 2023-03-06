@@ -1,4 +1,4 @@
-# React TS Snippets
+# React TS Code Snippets for VS Code
 
 All abbreviations share a
 `rt` (for React TS) prefix.

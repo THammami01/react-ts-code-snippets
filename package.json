@@ -1,13 +1,14 @@
 {
-  "name": "react-ts-snippets",
-  "displayName": "React TS Snippets",
-  "description": "React TS Snippets",
+  "name": "react-ts-code-snippets",
+  "displayName": "React TS Code Snippets",
+  "description": "React TS Code Snippets",
   "version": "1.2.7",
   "publisher": "THammami01",
   "icon": "images/react-logo.png",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/THammami01/react-ts-snippets.git"
+    "url": "https://github.com/THammami01/react-ts-code-snippets.git"
   },
   "keywords": [
     "React",
