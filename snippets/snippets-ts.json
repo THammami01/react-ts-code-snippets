@@ -6,7 +6,7 @@
       "",
       "interface $1Props {$2}",
       "",
-      "const $1: FC<$1Props> = ({ $3 }) => {",
+      "const $1: FC<$1Props> = ($3) => {",
       "\treturn ($0);",
       "}",
       "",

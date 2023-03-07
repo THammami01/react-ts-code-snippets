@@ -10,7 +10,7 @@ import type { FC } from 'react';,
 
 interface |Props {|}
 
-const |: FC<|Props> = ({ | }) => {
+const |: FC<|Props> = (|) => {
   return (|);
 }
 
